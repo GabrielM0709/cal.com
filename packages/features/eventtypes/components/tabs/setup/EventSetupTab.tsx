@@ -85,7 +85,7 @@ export const EventSetupTab = (
   const autoTranslateDescriptionEnabled = formMethods.watch("autoTranslateDescriptionEnabled");
 
   const multipleDurationOptions = [
-    5, 10, 15, 20, 25, 30, 45, 50, 60, 75, 80, 90, 120, 150, 180, 240, 300, 360, 420, 480,
+    5, 10, 15, 20, 25, 30, 45, 50, 60, 75, 80, 90, 120, 150, 180, 240, 300, 360, 420, 480, 600,
   ].map((mins) => ({
     value: mins,
     label: t("multiple_duration_mins", { count: mins }),
